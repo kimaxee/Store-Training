@@ -10,9 +10,9 @@ import com.dg.chicken.list.DrinkList;
 import com.dg.chicken.list.FlavorList;
 import com.dg.chicken.list.SideList;
 import com.dg.chicken.menu.Seasoning;
-import com.dg.chicken.proc.ChickenMenu;
-import com.dg.chicken.proc.DrinkMenu;
-import com.dg.chicken.proc.SideMenu;
+import com.dg.chicken.proc.Chicken;
+import com.dg.chicken.proc.Drink;
+import com.dg.chicken.proc.Side;
 
 public class DgChicken {
 	String name;
@@ -45,17 +45,17 @@ public class DgChicken {
 			
 			switch (selectNo) { // 메뉴 선택
 			case "1": // 치킨정보
-				ChickenMenu chickenMenu = new ChickenMenu();
+				Chicken chickenMenu = new Chicken();
 				chickenMenu.proc(chickens);
 				break;
 			
 			case "2": // 사이드 정보
-				SideMenu sideMenu = new SideMenu();
+				Side sideMenu = new Side();
 				sideMenu.proc(sides);
 				break;
 				
 			case "3": // 음료 정보
-				DrinkMenu drinkMenu = new DrinkMenu();
+				Drink drinkMenu = new Drink();
 				drinkMenu.proc(drinks);
 				break;
 
