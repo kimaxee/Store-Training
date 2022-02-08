@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.dg.chicken.data.Product;
-import com.dg.chicken.list.DrinkList;
 import com.dg.chicken.list.ShoppingList;
 import com.dg.chicken.list.SideList;
 

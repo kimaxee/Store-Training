@@ -2,7 +2,6 @@ package com.dg.chicken.proc;
 
 import com.dg.chicken.data.Product;
 import com.dg.chicken.list.OrderList;
-import com.dg.chicken.list.ShoppingList;
 
 public class OrderHistory {
 	public void proc() {

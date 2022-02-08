@@ -3,7 +3,6 @@ package com.dg.chicken.proc;
 import java.util.Scanner;
 
 import com.dg.chicken.data.Product;
-import com.dg.chicken.list.ChickenList;
 import com.dg.chicken.list.OrderList;
 import com.dg.chicken.list.ShoppingList;
 

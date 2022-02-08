@@ -72,5 +72,6 @@ public class DgChicken {
 				System.out.println("잘못 선택하셨습니다 다시 선택하세요.");
 			}
 		}
+		sc.close();
 	}
 }
